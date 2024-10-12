@@ -1,0 +1,39 @@
+<div class="m">
+  <div class="top-circle"></div>
+  <div class="mid-circle"></div>
+  <div class="bottom-circle"></div>
+</div>
+
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3F4869;
+}
+
+.top-circle, .bottom-circle, .mid-circle {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background-color: #61A74E;
+  border-radius: 50%;
+}
+
+.top-circle {
+  top: 35px;
+  left: 130px;
+  clip-path: inset(0 0 50% 0);
+}
+
+.mid-circle {
+  top: 35px;
+  left: 130px;
+  clip-path: inset(0 0 0 50%);
+}
+
+.bottom-circle {
+  top: 125px;
+  left: 130px;
+}
+</style>
